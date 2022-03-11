@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.NavigationDrawer?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141" fx:controller="m.FXMLControllerController">
+    <stylesheets>
+        <URL value="@fxmlcontroller.css" />
+    </stylesheets>
+   <children>
+      <NavigationDrawer layoutY="108.0" prefHeight="296.0" prefWidth="145.0" />
+      <Button layoutX="35.0" layoutY="132.0" mnemonicParsing="false" text="Button" />
+   </children>
+</AnchorPane>
